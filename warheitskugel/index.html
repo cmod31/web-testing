@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wk-style.css">
+    <title>Warheitskugel</title>
+    <script>
+        var Antwort = ['Ja','Vielleicht', 'Wird werden sehen', 'Bitte helf mir ich werde gefangen halten', 'Wenn du dich anstrengst ja','Nicht mal in deinen Träumen',  'Nein'];
+ 
+             console.log(Antwort.length);
+             function nichtantwort()
+             {
+                let zufallszahl =Math.floor(Math.random()*Antwort.length);
+                alert(zufallszahl)
+                document.getElementById("Antwort").innerHTML=Antwort[zufallszahl];
+             }
+        </script>
+</head>
+<body>
+ <input type="text" id="umfang" placeholder="Deine Frage"><br>
+ <p id="Antwort"></p>
+<img src="https://cdn.pixabay.com/photo/2019/03/09/08/28/crystal-ball-4043805_1280.jpg"  onclick="nichtantwort()">
+ 
+</body>
+</html>

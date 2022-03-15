@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 500%;
+    color: white;
+    position: relative;
+    left: -2%;
+}
+/*Speechbubble*/
+.container {
+    position: relative;
+    display: inline-block;
+  }
+.centered {
+    position: absolute;
+    z-index: 100;
+    top: 20%;
+    left: 57%;
+    transform: translate(-20%, -57%);
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+html{
+    overflow: hidden;
+    max-width:100%;
+    height:auto;
+   }
+
+body{
+ margin-top: 10%;
+ background-color: #1b1b20;;
+ text-align: center;
+ font-family: sans-serif;
+ font-size:small;
+}
+
+input{
+    border-radius: 25px;
+    width: 30%;
+    height: 20px;
+    background-color: white;
+    outline-color: white;
+    outline: none;
+    border: none;
+}
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+input:hover{
+    background-color: #f7f7f7;
+}
+
+button{
+    background-color: rgb(43, 43, 43);
+    outline: none;
+    border: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 25px;
+    color: white;
+}
+button:hover{
+    background-color: rgb(14, 14, 14);
+}
