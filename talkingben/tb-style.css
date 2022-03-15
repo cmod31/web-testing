@@ -65,3 +65,7 @@ button{
 button:hover{
     background-color: rgb(14, 14, 14);
 }
+
+a:hover {
+    cursor: default;
+   }
